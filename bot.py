@@ -1,4 +1,4 @@
-#this is the code for the discord bot that replies with pong when reads the message ping, trial bot
+#this is the code for the discord bot that replies with pong when reads the message ping, trial bot using python
 
 import discord
 
