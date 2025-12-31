@@ -29,6 +29,13 @@ This setup will later be used to host:
 - How headless servers are managed
 - How Linux servers boot and connect to Wi-Fi
 - Basic Linux commands
+- Python virtual environments
+- pip & dependency isolation
+- async + event-driven programs
+- API authentication
+- permissions & security models
+- reading tracebacks
+- fixing config vs code bugs
 
 ## Problems faced
 - SSH hostname not resolving on Windows
