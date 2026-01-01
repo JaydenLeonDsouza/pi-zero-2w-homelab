@@ -1,0 +1,15 @@
+#Rename discord-bot.service.example to discord-bot.service and replace YOUR_TOKEN_HERE with your token
+
+[Unit]
+Description=Discord Bot Service
+After=network.target
+
+[Service]
+User=zero2w
+WorkingDirectory=/home/zero2w/projects/discord-bot
+ExecStart=/home/zero2w/projects/discord-bot/venv/bin/python bot.py
+Restart=always
+Environment=DISCORD_TOKEN=YOUR_TOKEN_HERE
+
+[Install]
+WantedBy=multi-user.target
